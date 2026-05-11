@@ -13,6 +13,6 @@
     print(name2);
     
     //null값이 할당된 변수에 null값이 못 들어가게 하기 -> ! 붙이기
-    //print(name2!);
+    //print(name2!); 이 값은 null이 아니다라는 것을 의미 
     
   }
