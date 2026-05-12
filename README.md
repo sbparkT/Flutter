@@ -1,4 +1,5 @@
 # Flutter
+> 하나의 코드로 iOS, Android, Web, Desktop 앱을 모두 만들 수 있는 크로스플랫폼 프레임워크
 https://docs.flutter.dev/install
 
  <img width="214" height="135" alt="image" src="https://github.com/user-attachments/assets/32f94bb7-913a-4a7d-bcdb-c10dfbd1cc40" />
