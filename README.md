@@ -21,4 +21,4 @@ https://www.oracle.com/kr/java/technologies/downloads/#java17-windows
 
 '''
 [CMD] > java -version 실행 확인 (2번 정도 실행해보기) > 정상 확인 > flutter config --jdk-dir=$JAVA_HOME 실행 확인
-
+'''
