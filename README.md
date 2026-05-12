@@ -1,5 +1,102 @@
 # Flutter
 > 하나의 코드로 iOS, Android, Web, Desktop 앱을 모두 만들 수 있는 크로스플랫폼 프레임워크
+## 📌 Flutter가 뭔가요?
+ 
+**Flutter**는 Google이 만든 UI 프레임워크  
+**Dart** 언어로 코드를 한 번만 작성하면 여러 플랫폼에서 동시에 실행
+```
+하나의 코드
+    ↓
+┌─────────────────────────────────────┐
+│  📱 Android  │  🍎 iOS  │  🌐 Web  │
+│  🖥️ Windows │  🍏 macOS │ 🐧 Linux │
+└─────────────────────────────────────┘
+```
+## 🆚 Flutter vs 기존 개발 방식
+ 
+| 구분 | 기존 방식 | Flutter |
+|---|---|---|
+| Android 앱 | Kotlin / Java | Dart 하나로 |
+| iOS 앱 | Swift / Objective-C | Dart 하나로 |
+| 웹 | HTML / JS / CSS | Dart 하나로 |
+| 코드 수 | 플랫폼마다 따로 작성 | 한 번만 작성 |
+| 속도 | 네이티브 수준 | 네이티브 수준 |
+
+### Python vs Dart 비교
+ 
+```python
+# Python
+name = "홍길동"
+age = 17
+print(f"이름: {name}, 나이: {age}")
+ 
+def greet(name):
+    return f"안녕하세요, {name}!"
+```
+ 
+```dart
+// Dart
+String name = "홍길동";
+int age = 17;
+print("이름: $name, 나이: $age");
+ 
+String greet(String name) {
+  return "안녕하세요, $name!";
+}
+```
+ 
+### Dart 기본 문법
+ 
+```dart
+// 변수 선언
+String  name   = "홍길동";    // 문자열
+int     age    = 17;          // 정수
+double  score  = 98.5;        // 실수
+bool    isStudent = true;     // 불리언
+var     city   = "울산";      // 타입 자동 추론
+ 
+// 조건문
+if (age >= 18) {
+  print("성인입니다");
+} else {
+  print("미성년자입니다");
+}
+ 
+// 반복문
+for (int i = 0; i < 5; i++) {
+  print("$i번째");
+}
+ 
+// 리스트 (Python의 list)
+List<String> fruits = ["사과", "바나나", "딸기"];
+fruits.forEach((f) => print(f));
+ 
+// 함수
+int add(int a, int b) {
+  return a + b;
+}
+```
+ 
+---
+ 
+## 🏗️ Flutter 앱 구조
+ 
+Flutter에서 화면을 구성하는 모든 요소를 **Widget** 이라고 불러요.
+ 
+```
+MyApp
+  └── MaterialApp
+        └── Scaffold
+              ├── AppBar     ← 상단 바
+              ├── Body       ← 화면 내용
+              │     ├── Column
+              │     │     ├── Text("안녕하세요")
+              │     │     ├── Image
+              │     │     └── Button
+              └── BottomNavigationBar
+```
+
+---
 https://docs.flutter.dev/install
 
  <img width="214" height="135" alt="image" src="https://github.com/user-attachments/assets/32f94bb7-913a-4a7d-bcdb-c10dfbd1cc40" />
