@@ -28,5 +28,20 @@
     bool isFalse=false;
     print(isTrue);
     print(isFalse);
+      
+    /*double num=4.0;
+    print(num);
+  
+    num+=1;
+    print(num);
+  
+    num-=1;
+    print(num);
+  
+    num*=2;
+    print(num);
+  
+    num/=2;
+    print(num);*/
     
   }
