@@ -17,5 +17,8 @@ https://www.oracle.com/kr/java/technologies/downloads/#java17-windows
 <img width="462" height="607" alt="image" src="https://github.com/user-attachments/assets/401f2f25-7d1a-449e-899a-408315952fcd" />
 
 <img width="541" height="541" alt="image" src="https://github.com/user-attachments/assets/fc584159-5bba-4338-9e93-5d2eaf292717" />
-<img width="541" height="541" alt="image" src="https://github.com/user-attachments/assets/2794848e-793d-4fba-be66-723f12b7683d" />
+%JAVA_HOME%\bin 
+
+'''
+[CMD] > java -version 실행 확인 (2번 정도 실행해보기) > 정상 확인 > flutter config --jdk-dir=$JAVA_HOME 실행 확인
 
