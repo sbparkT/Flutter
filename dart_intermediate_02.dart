@@ -39,5 +39,36 @@ void main(){
   }while(k<10);
   
   print("last $k");
+  print("*"*50);
+
+  //break
+  int t=0;
+  while (t<10){
+    t+=1;
+    if(t==5){
+      break;//반복문 빠져나가기
+    }
+  }
+  
+  print(t);
+  t=0;
+  for (int i=0;i<10;i++){
+    t+=1;
+    if (t==5){
+      break;
+    }
+  }
+  print(t);
+  
+  //continue :현재 loop만 skip하고 다음 loop으로 넘어가기
+  t=0;
+  for (int i=0;i<10;i++){
+    t+=1;
+    if (t==5){
+      continue; //5만 skip
+    }
+    print(t);
+  }
+
   
 }
