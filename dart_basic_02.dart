@@ -9,10 +9,10 @@
     var name3="대현고등학교";
     
     print(number.runtimeType);
-    print(name3.runtimeType);
+    print(name3.runtimeType);//runtime때 자료형 인식
     
-    Map<String, Map<int,List<double>>> testType={};
-    //var testType={};이렇게 그때마다 상황에 맞춰야할때 var 사용 추천
+    Map<String, Map<int,List<double>>> testType={};//되도록 코드의 가독성과 변수의 역할을 정확히 명시 위해 각 type정확히 표현하는게 좋아
+    //var testType={};이렇게 그때마다 상황에 맞춰야할때(유연한 상황일 필요할때)var 사용 추천
     
     print('${name} ${name2}');
     print('$name $name2'); //변수 1개만 사용할때 {} 생략가능
