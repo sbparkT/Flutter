@@ -1,4 +1,5 @@
 void main() {
+ //list<type> :<>은 generic이라부름
  //list :중복저장가능
   List<String> aespa=['카리나','닝닝','지젤','윈터'];
   //List<String> aespa=['카리나','닝닝','지젤','윈터',2]; error
@@ -24,9 +25,9 @@ void main() {
   print("*"*50);
   //////////////////////////////////////////////
   //map :파이썬의 딕셔너리와 유사 
-  // key :value로 접근
+  // key & value로 접근  <key type , value type>
   Map<String,String> avengers={
-    "ironman":"tony stark",
+    "ironman":"tony stark", //key : value
     "captain america":"steve rogers",
     "blackwidow":"natasha romanoff",
   };
@@ -38,6 +39,15 @@ void main() {
     "captain america":true,
     "harry potter":false,
   };
+  
+  print(isavengers);
+
+ //전체 추가
+ isavengers.addAll(
+   {
+     'spiderman':true,
+     'superman':false
+   });
   
   print(isavengers);
   
