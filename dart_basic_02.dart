@@ -5,7 +5,7 @@
     print(name2);
     
     //var vs string
-    var number=20;
+    var number=20; //var은 자동으로 할당하는 값의 자료형으로 인식
     var name3="대현고등학교";
     
     print(number.runtimeType);
