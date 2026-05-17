@@ -1,13 +1,13 @@
   void main() {
     final String name= '짱구';
     print(name);
-    //name='철수'; // final은 값 선언 후 변경 불가
+    //name='철수'; // final은 값 선언 후 변경 불가(일반 변수는 값 변경 가능)
     
     const String name2='짱구';
     print(name2);
     //name2="철수"; //const 또한 값 선언 후 변경 불가 
     
-    //final , const 모두 type 생략 가능 
+    //final , const 모두 type 생략 가능 ->var기능역할하는느낌
     final  name3= '짱구';
     const  name4= '짱구';
     
@@ -20,11 +20,13 @@
     DateTime now2=DateTime.now();
     print(now2); 
     
-    //build : pl를 실행시켜 이진수로 번역하는 것
+    //build : 프로그래밍 언어를 실행시켜 이진수로 번역하는 것
     final DateTime now3=DateTime.now(); //final은 빌드타임 몰라도 됨
     print(now3);
     
-    const DateTime now4=DateTime.now();//error const는 빌드타임을 알아야 해
+    const DateTime now4=DateTime.now();//error const는 빌드타임을 알아야 해,미래를 알 수 없음
+    //buile time란 실행 버튼을 누른후, 코드를 이진수로 변형(번역)하는 시간의미
+    //run time은 번역된 이진수를 진짜 실행하는 시간
     //build -> run
     //const 변수는 build 할 때 모든 값 셋팅 
     //now() 는 run할 때 값이 할당되는 기능
