@@ -1,5 +1,5 @@
   void main() {
-    //어떤 Type이든 뭐든 다 넣을 수 있는 dynamic
+    //어떤 Type이든 뭐든 다 넣을 수 있는 dynamic(이건 var과 거의 비슷)
     dynamic name='짱구';
     print(name);
     dynamic number=1;
