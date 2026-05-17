@@ -10,5 +10,7 @@
     print(name2.runtimeType);
     name=true; //dynamic은 type 변형 가능
     //name2=true; //error :var은 type 변형 불가 
+    // var과 dynamic모두 어떤 type이든 할당 가능 
+    //[차이] var경우 처음 할당한 type 고정 , dynamic경우 정말 아무거나 다 넣을 수 있으면서 type변경도 가능
     print(name);
   }
