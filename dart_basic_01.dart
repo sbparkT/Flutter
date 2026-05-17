@@ -16,6 +16,8 @@
     print(num1-num2);
     print(num1*num2);
     print(num1/num2);
+    num1++;
+    num1--;
     
     double num3=2.5;
     double num4=0.5;
