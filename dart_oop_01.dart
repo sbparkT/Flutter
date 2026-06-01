@@ -74,7 +74,7 @@ class Idol{
   
   //에스파외의 다른 아이돌도 클래스를 통해 생성하고싶다 ->생성자 (constructor) 사용
   Idol(String name,List<String> members):
-    this.name=name,
+    this.name=name, //this.여기 클래스에 선언된 변수 = 매개변수 값 
     this.members=members; 
   
   void sayhello(){
