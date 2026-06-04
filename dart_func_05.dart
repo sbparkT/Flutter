@@ -15,5 +15,6 @@ void main(){
   print(sum);
   
   List<String> words=['안녕하세요','저는','홍길동입니다.'];
-  fianl sentence=words. fold<String>
+  final count=words. fold<int>(0,(prev,next)=>prev+next.length);
+  print(count);
 }
