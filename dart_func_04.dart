@@ -14,4 +14,10 @@ void main(){
     return prev+next;
   });
   print(result);
+  
+  List<String> keywords = ['플러터', '다트', '상태관리'];
+  // 단어 사이에 하이픈(-)을 넣어서 하나의 문자열로 결합
+  final String hashtag = keywords.reduce((value, element) => '$value - $element');
+  
+  print(hashtag); // 출력: "플러터 - 다트 - 상태관리"
 }
